@@ -1,8 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "http://18.231.5.193/:path*"
+      "src": "/(.*)",
+      "dest": "http://18.231.5.193/$1"
     }
   ]
 }
