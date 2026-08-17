@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "http://18.231.5.193/:path*"
+      "destination": "https://18-231-5-193.sslip.io/:path*"
     }
   ]
 }
