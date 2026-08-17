@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "routes": [
     {
-      "source": "/:path*",
-      "destination": "https://18-231-5-193.sslip.io/:path*"
+      "src": "/(.*)",
+      "dest": "https://18-231-5-193.sslip.io/$1"
     }
   ]
 }
